@@ -17,6 +17,6 @@ A budget app output to console with login system platform, to create account & p
 
 This project is to try two things: encrypting password and analysing data. 
 
-I started with encrypting and store username and password, while the raw file cannot be read directly. I chose Fernet from cryptography library because of it's simple and effective. Once username and password been created, the user can input expense or income and the data will be appended to csv file named by username.
+I started with encrypting and store username and password, while the raw file cannot be read directly. I chose Fernet from cryptography library for its simplicity and effectiveness. Once username and password been created, the user can input expense or income and the data will be appended to csv file named by username.
 
 And then I import pandas and matplotlib to visualise expense/income data by user input. There are a lot more visualisation and categorisation I am still exploring, so the budget app 2.0 will be creating more analysis options and categories.
