@@ -29,7 +29,7 @@ def create(): # create login info
     print("\nCreat account\n")
     user = input("Username: ").strip()
     pwd = getpass.getpass("Password: ").strip()
-    if encryption.encrypt(user, "usr"):
+    if encryption.encrypt(user, "usr"):1
         encryption.encrypt(pwd, "pwd")
     print("\nUser created.")
     time.sleep(1)
