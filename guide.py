@@ -3,7 +3,7 @@ import time
 
 def open():
     print('''
-                    💰 Budget APP 💰
+                    💰 Budgeting App 💰
 ==      Command line interface budget mamangement      ==
 ==              Multiple users available               ==
 ==             Enter [h] for app guidance              ==

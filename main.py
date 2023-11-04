@@ -29,7 +29,7 @@ def create(): # create login info
     print("\nCreat account\n")
     user = input("Username: ").strip()
     pwd = getpass.getpass("Password: ").strip()
-    if encryption.encrypt(user, "usr"):1
+    if encryption.encrypt(user, "usr"):
         encryption.encrypt(pwd, "pwd")
     print("\nUser created.")
     time.sleep(1)
@@ -101,6 +101,7 @@ def analysis(user):
     category_sums = exp_inc.groupby('Category').sum()
     category_sums.index
     ax = category_sums.plot.pie(y='Out', autopct='%1.1f%%', title = 'Expense')
+    ax.set_ylabel('')
     ax.legend(bbox_to_anchor=(1,1), borderaxespad=0, title = 'Category')
     plt.show()
     
